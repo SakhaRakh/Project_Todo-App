@@ -1,0 +1,146 @@
+
+body{
+	margin:0;
+	color:#7b651c;
+	background:#c8c8c8;
+	font:600 16px/18px 'Open Sans',sans-serif;
+}
+*,:after,:before{box-sizing:border-box}
+a{
+	color:inherit;
+	text-decoration:none
+	
+}
+
+.login-wrap{
+	width:100%;
+	margin: auto;
+	transform: translateY(40px);
+	max-width:485px;
+	min-height:670px;
+	position:relative;
+	box-shadow:15px 10px 15px 10px rgba(0, 0, 0, 0.495),0 17px 50px 0 rgba(0,0,0,.19);
+	border-radius: 10px;
+	transform: translateY(-10px);
+	
+	
+}
+.login-html{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:100px 60px 50px 60px;
+	background:rgba(0, 0, 0, 0.73);
+	border-radius: 10px;
+}
+.login-html-regis{
+	width:100%;
+	/* height: 100%; */
+	position:absolute;
+	padding:0px 60px 50px 60px;
+	background:rgba(0, 0, 0, 0.73);
+	border-radius: 10px;
+
+}
+.judul{
+	text-align: center;
+	color: rgb(173, 170, 170);
+	transform: translateY(-60px);
+}
+.judul-regis{
+	padding: 30px 0 0 0;
+	text-align: center;
+	color: rgb(173, 170, 170);
+}
+.link{
+	color: rgb(166, 164, 164);
+	text-align: center;
+	font-size: medium;
+	transform: translateY(-25px);
+}
+.login-html .tab{
+	font-size:22px;
+	margin-right:15px;
+	padding-bottom:5px;
+	display:inline-block;
+	border-bottom:2px solid transparent;
+}
+.login-form{
+	min-height:345px;
+	position:relative;
+	perspective:1000px;
+	transform-style:preserve-3d;
+}
+.login-form .group{
+	margin-bottom:15px;
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button{
+	width:100%;
+	color:#fff;
+	display:block;
+}
+.login-form .group .input,
+.login-form .group .button{
+	border:none;
+	padding:17px 21px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+}
+.login-form .group input[data-type="password"]{
+	-webkit-text-security:circle;
+}
+.login-form .group .label{
+	color:#aaa;
+	font-size:14px;
+}
+.login-form .group .button{
+	background:#c2a23b;
+}
+.foot-lnk{
+	text-align:center;
+}
+
+.hero {
+	width: 100%;
+	height: 90vh;
+	
+	/* background:rgba(0, 0, 0, 0.73); */
+  }
+  
+  .hero .container {
+	padding-top: 82px;
+  }
+  .hero h1 {
+	font-size: 48px;
+	font-weight: 700;
+	/* margin: 10px; */
+	color: #fff;
+  }
+  .hero h2 {
+	color: rgb(255, 255, 255);
+	margin-bottom: 50px;
+	font-size: 34px;
+	/* text-align: center; */
+  }
+  .hero .btn-get-started {
+	font-family: "Jost", sans-serif;
+	font-size: 19px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 10px 28px 11px 28px;
+	border-radius: 50px;
+	border: none;
+	/* margin: auto; */
+	color: #fff;
+	background: #FFE15D;
+	border-bottom: 4px solid rgb(209, 125, 68);
+  }
+  .hero .btn-get-started:hover{
+	background: rgb(209, 125, 68);
+  }
+
+.button-submit{
+	background: aqua;
+}
